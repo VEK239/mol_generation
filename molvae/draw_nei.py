@@ -58,5 +58,5 @@ for dx in xrange(-6,7):
 
 nei_mols = [Chem.MolFromSmiles(s) for s in nei_mols]
 img = Draw.MolsToGridImage(nei_mols, molsPerRow=13, subImgSize=(200,200), useSVG=True)
-print img
+print(img)
 
